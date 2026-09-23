@@ -5,7 +5,7 @@ data = {
     "Score": [45,72,61,38,84]
 }
 df = pd.DataFrame(data)
-
+    
 max_score = df["Score"].max()
 print(f"Maximum Score: {max_score}")
 
